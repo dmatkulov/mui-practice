@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import MuiAutocomplete from "./components/MuiAutocomplete";
+// import MuiLayout from "./components/MuiLayout";
+import MuiCard from "./components/MuiCard";
+import MuiAccordeon from "./components/MuiAccordeon";
+// import MuiAutocomplete from "./components/MuiAutocomplete";
 // import MuiCheckBox from "./components/MuiCheckBox";
 // import MuiRadioBtn from "./components/MUIRadioBtn";
 // import MuiSwitch from "./components/MuiSwitch";
@@ -13,7 +16,10 @@ import MuiAutocomplete from "./components/MuiAutocomplete";
 function App() {
   return (
     <div className="App">
-      <MuiAutocomplete/>
+      <MuiAccordeon/>
+      <MuiCard/>
+      {/*// <MuiLayout/>*/}
+      {/*<MuiAutocomplete/>*/}
       {/*<MuiRating/>*/}
       {/*<MuiSwitch/>*/}
       {/*<MuiCheckBox/>*/}
